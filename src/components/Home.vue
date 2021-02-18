@@ -3,7 +3,7 @@
     <v-row class="text-center" align="center" justify="center">
       <v-col cols="12">
         <Logo />
-        <h1  class="zenkoku">コロナ アプリ</h1>
+        <h1  class="zenkoku">コロナ感染者アプリ</h1>
 
       </v-col>
       <v-spacer />
@@ -18,7 +18,7 @@
       </v-col>
       <!-- Country value -->
       <v-col cols="12">
-        <section class="country col-md-3 text-center mx-auto">
+        <section class="country  text-center mx-auto">
           <model-select
             :options="options"
             @input="changeCountry"
@@ -35,8 +35,8 @@
       </v-col>
 
 
-      <v-col cols="12" md="3">
-        <div class="mx-auto pt-3 pb-3" shaped :loading="loading">
+      <v-col cols="12" md="4">
+        <div class="mx-auto pt-2 pb-3" shaped :loading="loading">
           <v-card-text class="card">
             <p class="display-2 orange--text">{{ countriesUpdate.confirmed | putComma }}</p>
             <small class="warning--text">+{{ todayInCountries }} 前日比</small>
@@ -45,7 +45,7 @@
         </div>
       </v-col>
 
-      <v-col cols="12" md="3">
+      <v-col cols="12" md="4">
         <div class="mx-auto pt-3 pb-3" shaped :loading="loading">
           <v-card-text class="card">
             <p
@@ -59,7 +59,7 @@
         </div>
       </v-col>
 
-      <v-col cols="12" md="3">
+      <v-col cols="12" md="4">
         <div class="mx-auto pt-3 pb-3" shaped :loading="loading">
           <v-card-text class="card">
             <p
@@ -83,7 +83,7 @@
       </v-col>
 
 
-      <v-col cols="12" md="3">
+      <v-col cols="12" md="4">
         <div class="mx-auto pt-3 pb-3" shaped :loading="globalLoading">
           <v-card-text class="card">
             <p class="display-1 orange--text">{{ global.confirmed | putComma }}</p>
@@ -94,7 +94,7 @@
         </div>
       </v-col>
 
-      <v-col cols="12" md="3">
+      <v-col cols="12" md="4">
         <div class="mx-auto pt-3 pb-3" shaped :loading="globalLoading">
           <v-card-text class="card">
             <p class="display-1" style="color:rgb(236, 49, 75)">{{ global.deaths | putComma }}</p>
@@ -105,7 +105,7 @@
       </v-col>
 
       
-      <v-col cols="12" md="3">
+      <v-col cols="12" md="4">
         <div class="mx-auto pt-3 pb-3" shaped :loading="globalLoading">
           <v-card-text class="card">
             <p class="display-1" style="color:rgb(5, 181, 132)">{{ global.recovered | putComma }}</p>
