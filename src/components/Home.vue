@@ -31,7 +31,7 @@
       <v-alert type="error" v-if="countryError">Oops! The country's information could not be found.</v-alert>
     
       <v-col cols="12">
-        <p class="text">新更新: {{ countriesUpdate.lastUpdate }}</p>
+        <p class="text">最終更新: {{ countriesUpdate.lastUpdate }}</p>
       </v-col>
 
 
@@ -79,7 +79,7 @@
     <v-row class="text-center" align="center" justify="center">
       <v-col cols="12">
         <h1 class="sekai" style="color:rgb(33, 43, 54)">世界</h1>
-        <p class="text">新更新: {{ global.lastUpdate }}</p>
+        <p class="text">最終更新: {{ global.lastUpdate }}</p>
       </v-col>
 
 
@@ -326,7 +326,7 @@ small {
 }
 .zenkoku{
     margin: 20px auto 0 auto;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
 }
 .card{
