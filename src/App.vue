@@ -9,7 +9,7 @@
       <div class="text-center mx-auto">
     
        <p>Napak Nantapudchim</p>
-        <a class="footlink" href="#"><img src="./assets/git.png"> Github</a>
+        <a class="footlink" href="https://github.com/29napak/covid19-app"><img src="./assets/git.png"> Github</a>
       </div>
     </v-footer>
   </v-app>
