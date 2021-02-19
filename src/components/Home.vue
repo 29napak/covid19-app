@@ -99,7 +99,7 @@
           <v-card-text class="card">
             <p class="display-1" style="color:rgb(236, 49, 75)">{{ global.deaths | putComma }}</p>
             <small class="error--text">{{ globalDeathPercentage }}%</small>
-            <h2>退院者数</h2>
+            <h2>死亡者数</h2>
           </v-card-text>
         </div>
       </v-col>
